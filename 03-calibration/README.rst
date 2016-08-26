@@ -10,6 +10,8 @@ input. You can run the module in normal mode as follows::
     openag firmware run_module -p csv -t upload
     pio serialports monitor
 
+Note: be sure to plug an Arduino via USB before running this command, or you will see an error.
+
 In this mode, the Ardunio will continuously output the value from the first
 cell in its EEPROM on its `val` output. You can run the module in calibration
 mode as follows::
