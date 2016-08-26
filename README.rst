@@ -7,7 +7,8 @@ purposes.
 Each firmware module is a GitHub repository that has:
 
 * A `module.json` manifest used to configure Arduino code gen.
-* A C++ class that inherits from the base class defined in [openag_firmware_module](https://github.com/OpenAgInitiative/openag_firmware_module).
+* A C++ class that inherits from the base class defined in
+  `openag_firmware_module <https://github.com/OpenAgInitiative/openag_firmware_module>`_.
 
 
 Setup
