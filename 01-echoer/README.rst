@@ -8,6 +8,8 @@ to its input. To try it out, run::
     openag firmware run_module -p csv -t upload <inital_val>
     platformio serialports monitor
 
+Note: be sure to plug an Arduino via USB before running this command, or you will see an error.
+
 Replace `<initial_val>` with some initial float value for the module to output.
 You can send a message to the input by typing `module,val,<val>` into the
 prompt, replacing `<val>` with a valid float

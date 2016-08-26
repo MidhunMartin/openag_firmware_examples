@@ -11,6 +11,8 @@ run as::
     openag firmware run_module -p csv -t upload --status_update_interval 1
     platformio serialports monitor
 
+Note: be sure to plug an Arduino via USB before running this command, or you will see an error.
+
 The `--status_update_interval` flag is used to adjust the frequency with which
 status messages are published. We publish them more frequently for this example
 just to help get the point across. By default, status messages are published
