@@ -20,7 +20,9 @@ can be done using pip::
 
     pip install openag
 
-Then you can clone this repository and start looking around.
+Then you can clone this repository and start looking around. Note that if you
+are running these outside of the `openag_brain <https://github.com/OpenAgInitiative/openag_brain>`_ ROS environment, you will also
+need to `install the platform.io CLI <http://platformio.org/get-started/cli>`_.
 
 
 More Examples
