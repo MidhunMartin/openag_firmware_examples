@@ -1,0 +1,23 @@
+{
+    "header_file": "echoer.h",
+    "class_name": "Echoer",
+    "inputs": {
+        "val": {
+            "type": "std_msgs/Float32"
+        }
+    },
+    "outputs": {
+        "val": {
+            "type": "std_msgs/Float32"
+        }
+    },
+    "arguments": [
+        {
+            "name": "initial_val",
+            "type": "float"
+        }
+    ],
+    "dependencies": [
+        {"type": "git", "url": "https://github.com/OpenAgInitiative/openag_firmware_module.git"}
+    ]
+}
