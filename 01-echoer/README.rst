@@ -1,4 +1,4 @@
-echoer
+Echoer
 ======
 
 This folder defines a module that constantly outputs a single float value. It

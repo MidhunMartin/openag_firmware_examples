@@ -1,0 +1,7 @@
+{
+    "header_file": "status.h",
+    "class_name": "Status",
+    "dependencies": [
+        {"type": "git", "url": "http://github.com/OpenAgInitiative/openag_firmware_module.git"}
+    ]
+}

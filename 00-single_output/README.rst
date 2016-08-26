@@ -1,5 +1,5 @@
-single\_output
-==============
+Single Output
+=============
 
 This folder defines a module with a single output, `output`, which constantly
 outputs a static float value. It can be compiled and run as follows::
